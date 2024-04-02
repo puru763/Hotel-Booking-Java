@@ -4,9 +4,6 @@ import com.purvesh.hotelbooking.model.BookedRoom;
 
 import java.util.List;
 
-/**
- * @author Simpson Alfred
- */
 
 public interface IBookingService {
     void cancelBooking(Long bookingId);
